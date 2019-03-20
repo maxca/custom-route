@@ -74,6 +74,7 @@ class CustomRouteServiceProvider extends ServiceProvider
         $this->getDirectoryLists();
         $this->registerRoutes();
         $this->routes = [];
+        
     }
 
     /**
