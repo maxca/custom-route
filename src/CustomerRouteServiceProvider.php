@@ -73,6 +73,7 @@ class CustomRouteServiceProvider extends ServiceProvider
         $this->prefix         = 'api';
         $this->getDirectoryLists();
         $this->registerRoutes();
+        $this->routes = [];
     }
 
     /**
@@ -84,6 +85,7 @@ class CustomRouteServiceProvider extends ServiceProvider
         $this->path           = 'routes/web';
         $this->getDirectoryLists();
         $this->registerRoutes();
+        $this->routes = [];
     }
 
     /**
